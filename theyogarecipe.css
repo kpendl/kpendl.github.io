@@ -1,0 +1,211 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*This resets all defaults to zero*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+body {
+	background: url(ticks.png) repeat 0 0;
+}
+#wrapper {
+	background-color: white;
+	width:900px;
+	height:800px;
+	padding: 10px;
+	font-family:'Open Sans', Helvetica;;
+	margin:35px;
+}
+.background {
+	width:1200px;
+	height: 1200px;
+}
+/*This is the div for the entire big app, 
+everything is inside and ID trumps class*/
+.Banner {
+	background-color: #d04666;
+	display: block;
+	font-size: 13px;
+	height: 15px;
+	line-height: 35px;
+	text-align: center;
+	width: 900px;
+	border-radius: 50px;
+	opacity: .9;
+}
+@-webkit-keyframes flyin{
+	0% {margin-left: -450px;
+		margin-right: 450px;}
+	100% {margin-left: 0;
+		margin-right:0;}	
+}
+.Quote {
+	color: #6b6b6b;
+	font-size: 17px;
+	height: 50px;
+	line-height: 50px;
+	width: 900px;
+	text-align: center;
+	-webkit-animation-name: flyin;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteation-count:1;
+	-webkit-animation-timing-function: linear;
+}
+.Header{
+	height: 120px;
+	line-height: 28px;
+	width: 900px;
+	}
+
+/*this is code for the actual image box(div), 
+img is for the picture itself*/
+	.logo {
+			/*position: absolute;*/
+			width: 188px;
+			height: 140px;
+			display: block;
+			float: left;
+			position: relative;
+			margin-top: -50px;
+			margin-left: -13px;
+			z-index: 1;
+			}
+/*change color to background color and bkgrd color to white*/
+	
+	.tabs {
+	font-family: 'Open Sans', Helvetica;
+	height: 77px;
+	line-height: 70px;
+	width: 100%;
+	height: 70px;
+	border: 5px solid #d04666;
+	border-radius: 50px;
+	color: #6b6b6b;
+	font-size: 24px;
+	opacity: .9;
+	box-shadow: inset 0 0 15px #d04666;
+		}
+		.hometab {
+			width: 150px;
+			height: 100px;
+			float: left;
+			padding-left: 60px;
+		}
+		.abouttab {
+			width: 150px;
+			height:100px;
+			float: left;
+		}
+		.blogtab {
+			width: 150px;
+			height:100px;
+			float: left;
+					}
+		.Work {
+			width: 150px;
+			height:100px;
+			float: left;
+
+		}
+	a:hover {
+		color: #50bfbc;
+		text-decoration: none;
+	}
+	a:active {
+		color: #6b6b6b;
+		text-decoration: none;
+	}
+	a:visited {
+		color: #6b6b6b;
+		text-decoration: none;
+	}	
+	a:link {
+		color: #6b6b6b;
+		text-decoration: none;
+	}
+/*this is tabs on the right side of TYR logo
+link to other pages*/
+.LargeMiddle {
+	color: #6b6b6b;
+	background color: blue;
+	clear: both;
+	height: 500px;
+	width: 900px;
+	border: 5px solid #50bfbc;
+	border-radius: 20px;
+/*background: url(flower.jpeg) repeat 0 0;*/
+}
+/*h2 {
+	color: #50bfbc;
+	margin-left: 50px;
+}*/
+.me {
+	width: 260px;
+	height: 400px;
+	float: left;
+	display: block;
+	position: relative;
+	margin-top:10px;
+	opacity: 0.8;
+	margin-left: 40px;
+	margin-top: 40px;
+	border-radius: 20px;
+}
+.copy {
+	float: right;
+	width: 500px;
+	height: 400px;
+	display: block;
+	position: relative;
+	margin-top: 40px;
+	margin-right: 50px;
+	font-size: 20px;
+}
+.Social {
+	color: #50bfbc;
+	border: 5px solid #6b6b6b;
+	margin-bottom: 10px;
+	height: 75px;
+	width: 900px;
+	font-size: 20px;
+	line-height: 85px;
+	opacity: .9;
+	border-radius: 50px;
+	text-align: center;
+	margin-top: 20px;
+	box-shadow: inset 0 0 15px #6b6b6b;
+}
+.icon-twitter {
+	font-size: 40px;
+	color: #50bfbc;
+	margin-left: 10px;
+
+}
+.icon-facebook {
+	font-size: 40px;
+	color: #50bfbc;
+	margin-left: 10px;
+}
+.icon-github-sign{
+	font-size: 40px;
+	color: #50bfbc;
+	margin-left: 10px;
+}
+.icon-linkedin-sign{
+	font-size: 40px;
+	color: #50bfbc;
+	margin-left: 10px;
+	
+}
+.icon-instagram{
+	font-size: 40px;
+	color: #50bfbc;
+	margin-left: 10px;
+}
+/*.Footer {
+	color: #D04666;
+	background-color: #d04666;
+	border: 5px solid #6b6b6b;
+	clear:both;
+	opacity:0.75;
+	
+}*/
