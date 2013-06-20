@@ -28,11 +28,15 @@ everything is inside and ID trumps class*/
 	border-radius: 50px;
 	opacity: .9;
 }
-@-webkit-keyframes flyin{
+/*@-webkit-keyframes flyin{
 	0% {margin-left: -450px;
 		margin-right: 450px;}
 	100% {margin-left: 0;
-		margin-right:0;}	
+		margin-right:0;}	*/
+}
+@-moz-keyframes fadeIn {
+	0% {opacity: 0;}	
+	100% {opacity: 3;}
 }
 .Quote {
 	color: #6b6b6b;
@@ -41,10 +45,12 @@ everything is inside and ID trumps class*/
 	line-height: 50px;
 	width: 900px;
 	text-align: center;
-	-webkit-animation-name: flyin;
-	-webkit-animation-duration: 1s;
-	-webkit-animation-iteation-count:1;
-	-webkit-animation-timing-function: linear;
+	-webkit-animation-name: fadeIn;
+	-moz-animation-name: fadeIn;
+	-o-animation-name: fadeIn;
+	animation-name: fadeIn;
+	-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;}.animated.hinge{-webkit-animation-duration:2s;-moz-animation-duration:2s;-ms-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s;}@-webkit-keyframes fadeIn {
+	0% {opacity: 0;}	100% {opacity: 3;}
 }
 .Header{
 	height: 120px;
@@ -82,10 +88,12 @@ img is for the picture itself*/
 	font-size: 24px;
 	opacity: .9;
 	box-shadow: inset 0 0 15px #d04666;
-	-webkit-animation-name: flyin;
-	-webkit-animation-duration: 1s;
-	-webkit-animation-iteation-count:1;
-	-webkit-animation-timing-function: linear;
+	-webkit-animation-name: fadeIn;
+	-moz-animation-name: fadeIn;
+	-o-animation-name: fadeIn;
+	animation-name: fadeIn;
+	-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;}.animated.hinge{-webkit-animation-duration:2s;-moz-animation-duration:2s;-ms-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s;}@-webkit-keyframes fadeIn {
+	0% {opacity: 0;}	100% {opacity: 3;}
 
 		}
 		.hometab {
@@ -93,38 +101,46 @@ img is for the picture itself*/
 			height: 100px;
 			float: left;
 			padding-left: 40px;
-				-webkit-animation-name: flyin;
-	-webkit-animation-duration: 3s;
-	-webkit-animation-iteation-count:1;
-	-webkit-animation-timing-function: linear;
+	-webkit-animation-name: fadeIn;
+	-moz-animation-name: fadeIn;
+	-o-animation-name: fadeIn;
+	animation-name: fadeIn;
+	-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;}.animated.hinge{-webkit-animation-duration:2s;-moz-animation-duration:2s;-ms-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s;}@-webkit-keyframes fadeIn {
+	0% {opacity: 0;}	100% {opacity: 3;}
 		}
 		.abouttab {
 			width: 125px;
 			height:100px;
 			float: left;
-				-webkit-animation-name: flyin;
-	-webkit-animation-duration: 2.5s;
-	-webkit-animation-iteation-count:1;
-	-webkit-animation-timing-function: linear;
-		}
+		-webkit-animation-name: fadeIn;
+	-moz-animation-name: fadeIn;
+	-o-animation-name: fadeIn;
+	animation-name: fadeIn;
+	-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;}.animated.hinge{-webkit-animation-duration:2s;-moz-animation-duration:2s;-ms-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s;}@-webkit-keyframes fadeIn {
+	0% {opacity: 0;}	100% {opacity: 3;}
+}
 		.blogtab {
 			width: 125px;
 			height:100px;
 			float: left;
 			padding-left: 25px;
-				-webkit-animation-name: flyin;
-	-webkit-animation-duration: 2s;
-	-webkit-animation-iteation-count:1;
-	-webkit-animation-timing-function: linear;
-					}
+				-webkit-animation-name: fadeIn;
+	-moz-animation-name: fadeIn;
+	-o-animation-name: fadeIn;
+	animation-name: fadeIn;
+	-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;}.animated.hinge{-webkit-animation-duration:2s;-moz-animation-duration:2s;-ms-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s;}@-webkit-keyframes fadeIn {
+	0% {opacity: 0;}	100% {opacity: 3;}					
+}
 		.Work {
 			width: 230px;
 			height:100px;
 			float: left;
-	-webkit-animation-name: flyin;
-	-webkit-animation-duration: 1.5s;
-	-webkit-animation-iteation-count:1;
-	-webkit-animation-timing-function: linear;
+	-webkit-animation-name: fadeIn;
+	-moz-animation-name: fadeIn;
+	-o-animation-name: fadeIn;
+	animation-name: fadeIn;
+	-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;}.animated.hinge{-webkit-animation-duration:2s;-moz-animation-duration:2s;-ms-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s;}@-webkit-keyframes fadeIn {
+	0% {opacity: 0;}	100% {opacity: 3;}
 		}
 	.a:hover {
 		color: #50bfbc;
