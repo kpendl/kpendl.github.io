@@ -1,7 +1,3 @@
-*{
-	margin: 0px;
-	padding: 0px;
-}
 /*This resets all defaults to zero*/
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 body {
@@ -9,9 +5,9 @@ body {
 }
 #wrapper {
 	background-color: white;
-	width:900px;
+	width:930px;
 	height:800px;
-	padding: 10px;
+	padding: 40px;
 	font-family:'Open Sans', Helvetica;;
 	margin:35px;
 }
@@ -65,12 +61,15 @@ img is for the picture itself*/
 			display: block;
 			float: left;
 			position: relative;
-			margin-top: -50px;
-			margin-left: -13px;
+			margin-top: -52px;
+			margin-left: -13.5px;
 			z-index: 1;
 			}
+		.logo:hover{
+			width: 198px;
+			height:150px;
+		}
 /*change color to background color and bkgrd color to white*/
-	
 	.tabs {
 	font-family: 'Open Sans', Helvetica;
 	height: 77px;
@@ -83,32 +82,54 @@ img is for the picture itself*/
 	font-size: 24px;
 	opacity: .9;
 	box-shadow: inset 0 0 15px #d04666;
-		}
-		.hometab {
-			width: 150px;
-			height: 100px;
-			float: left;
-			padding-left: 60px;
-		}
-		.abouttab {
-			width: 150px;
-			height:100px;
-			float: left;
-		}
-		.blogtab {
-			width: 150px;
-			height:100px;
-			float: left;
-					}
-		.Work {
-			width: 150px;
-			height:100px;
-			float: left;
+	-webkit-animation-name: flyin;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteation-count:1;
+	-webkit-animation-timing-function: linear;
 
 		}
-	a:hover {
+		.hometab {
+			width: 125px;
+			height: 100px;
+			float: left;
+			padding-left: 40px;
+				-webkit-animation-name: flyin;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteation-count:1;
+	-webkit-animation-timing-function: linear;
+		}
+		.abouttab {
+			width: 125px;
+			height:100px;
+			float: left;
+				-webkit-animation-name: flyin;
+	-webkit-animation-duration: 2.5s;
+	-webkit-animation-iteation-count:1;
+	-webkit-animation-timing-function: linear;
+		}
+		.blogtab {
+			width: 125px;
+			height:100px;
+			float: left;
+			padding-left: 25px;
+				-webkit-animation-name: flyin;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteation-count:1;
+	-webkit-animation-timing-function: linear;
+					}
+		.Work {
+			width: 230px;
+			height:100px;
+			float: left;
+	-webkit-animation-name: flyin;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-iteation-count:1;
+	-webkit-animation-timing-function: linear;
+		}
+	.a:hover {
 		color: #50bfbc;
 		text-decoration: none;
+		font-size: 40px;
 	}
 	a:active {
 		color: #6b6b6b;
@@ -126,12 +147,12 @@ img is for the picture itself*/
 link to other pages*/
 .LargeMiddle {
 	color: #6b6b6b;
-	background color: blue;
 	clear: both;
 	height: 500px;
 	width: 900px;
 	border: 5px solid #50bfbc;
 	border-radius: 20px;
+	box-shadow: inset 0 0 30px #50bfbc;
 /*background: url(flower.jpeg) repeat 0 0;*/
 }
 /*h2 {
@@ -178,7 +199,6 @@ link to other pages*/
 	font-size: 40px;
 	color: #50bfbc;
 	margin-left: 10px;
-
 }
 .icon-facebook {
 	font-size: 40px;
